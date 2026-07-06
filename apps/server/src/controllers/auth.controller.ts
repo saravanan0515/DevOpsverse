@@ -114,7 +114,6 @@ res.status(200).json({
 // ==============================
 // Get Profile
 // ==============================
-import { AuthRequest } from "../middleware/auth.middleware.js";
 
 export const profile = async (req: AuthRequest, res: Response) => {
   try {
